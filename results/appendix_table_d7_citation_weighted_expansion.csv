@@ -1,0 +1,5 @@
+﻿variable,coef,se,pval,model
+log_lag_patent_stock,0.163912,0.008976,0.0,Baseline (unweighted)
+log_lag_grant_stock,0.173261,0.009383,0.0,Baseline (unweighted)
+log_lag_wt_patent_stock (T=5yr),0.152553,0.007999,0.0,Citation-weighted patent stock (T=5yr)
+log_lag_wt_patent_stock (T=10yr),0.109784,0.004711,0.0,Citation-weighted patent stock (T=10yr)

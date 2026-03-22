@@ -1,0 +1,13 @@
+﻿variable,coef,se,pval,ci_lo,ci_hi,panel,spec,outcome
+self_cite_ratio (pharma only),0.5703,0.0233,0.0,0.5246,0.616,A,Pharma only,has_reject_reason
+"self_cite_ratio (pooled, no interact)",0.6106,0.0161,0.0,0.5791,0.6422,A,Pooled (no interaction),has_reject_reason
+self_cite_ratio (main),0.628,0.0193,0.0,0.5902,0.6659,A,Pooled + interaction,has_reject_reason
+self_cite × pharma (interact),-0.0421,0.0317,0.1839,-0.1043,0.02,A,Pooled + interaction,has_reject_reason
+self_cite_ratio (pharma only),1.104,0.0507,0.0,1.0046,1.2034,B,Pharma only,log_citation_count
+"self_cite_ratio (pooled, no interact)",1.3567,0.0572,0.0,1.2445,1.4689,B,Pooled (no interaction),log_citation_count
+self_cite_ratio (main),1.5447,0.0616,0.0,1.424,1.6653,B,Pooled + interaction,log_citation_count
+self_cite × pharma (interact),-0.4548,0.0842,0.0,-0.6198,-0.2897,B,Pooled + interaction,log_citation_count
+log_lag_patent_stock (pharma only),0.2319,0.0224,0.0,0.188,0.2758,C,Pharma only,log_applications
+"log_lag_patent_stock (pooled, no interact)",0.2704,0.0079,0.0,0.2549,0.2859,C,Pooled (no interaction),log_applications
+log_lag_patent_stock (main),0.2767,0.008,0.0,0.261,0.2924,C,Pooled + interaction,log_applications
+patent_stock × pharma (interact),-0.0392,0.022,0.0746,-0.0824,0.0039,C,Pooled + interaction,log_applications

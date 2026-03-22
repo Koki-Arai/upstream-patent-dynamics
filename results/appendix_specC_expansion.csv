@@ -1,0 +1,3 @@
+﻿variable,coef,se,pval,spec
+log_lag_patent_stock,0.163912,0.008976,0.0,Baseline
+log_lag_grant_stock,0.173261,0.009383,0.0,Baseline

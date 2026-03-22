@@ -1,0 +1,6 @@
+﻿variable,coef,se,pval,model
+self_cite_ratio,0.512713,0.026744,0.0,Baseline (unweighted)
+wt_self_cite_ratio (T=5yr),0.225874,0.013786,0.0,Citation-weighted self_cite (T=5yr)
+wt_self_cite_ratio (T=10yr),0.065813,0.005822,0.0,Citation-weighted self_cite (T=10yr)
+self_cite_ratio (+wt_control T=5yr),0.509021,0.02615,0.0,self_cite + citation weight control (T=5yr)
+self_cite_ratio (+wt_control T=10yr),0.504201,0.02667,0.0,self_cite + citation weight control (T=10yr)

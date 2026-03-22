@@ -1,0 +1,8 @@
+﻿variable,coef,se,pval,spec
+self_cite_ratio,0.512713,0.026744,0.0,Baseline (field FE + year FE)
+self_cite_ratio,0.548266,0.027138,0.0,field FE only + macro controls
+log_topix_std,-0.086225,0.00772,0.0,field FE only + macro controls
+topix_ret_std,0.028075,0.003045,0.0,field FE only + macro controls
+cpi_inflation_std,0.026941,0.002641,0.0,field FE only + macro controls
+usdjpy_mean_std,0.011244,0.005295,0.033721,field FE only + macro controls
+lending_rate_std,-0.043908,0.011171,8.5e-05,field FE only + macro controls
