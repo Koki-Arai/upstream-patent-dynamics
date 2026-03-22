@@ -1,0 +1,24 @@
+# .gitignore
+# Upstream Patent Dynamics and Competition
+
+# IIP raw data files (not redistributable under data use agreement)
+ap_*.txt
+cc_*.txt
+applicant_*.txt
+inventor_*.txt
+hr_*.txt
+*.pkl
+
+# Google Colab / Drive artifacts
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Intermediate outputs
+/content/
+export_*/
+replication_work_*/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+# requirements.txt
+# Upstream Patent Dynamics and Competition
+# Tested on Google Colab (Python 3.12, Ubuntu 24)
+#
+# Install via:
+#   pip install -r requirements.txt
+#
+# On Google Colab, use:
+#   import subprocess, sys
+#   for pkg in open('requirements.txt').read().splitlines():
+#       if pkg and not pkg.startswith('#'):
+#           subprocess.check_call([sys.executable, '-m', 'pip', 'install', '--quiet', pkg])
+
+# Core scientific stack (pinned for reproducibility)
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+statsmodels==0.14.2
+
+# Panel / absorbing LS estimation
+linearmodels>=7.0
+
+# Packaging utilities
+packaging>=23.0
